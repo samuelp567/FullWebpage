@@ -5,3 +5,42 @@
 /* s:eb4442 */
 /* a1:e6e6e6 */
 /* a2:2d2b3e */
+
+/* basic styles */
+body{
+    font-family: "Rajdhani", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.5;margin:0;
+    background-color: #f4f4f4;
+}
+.container{
+    width:80%;
+    margin:auto;
+}
+ul{
+    margin:0;
+    /* removes bullets */
+    list-style-type: none;
+}
+
+.btn-1{
+    height:38px;
+    border:0;
+    background-color:#eb4442;
+    padding:0 20px;
+    color:#fff;
+}
+.light{
+    background-color: #e6e6e6;
+    color:#2d2b3e;
+}
+.dark{
+    color: #e6e6e6;
+    background-color: #2d2b3e;
+}
+.light , .dark{
+    padding:15px;
+    margin:10px 0;
+}
