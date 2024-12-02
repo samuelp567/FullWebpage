@@ -9,8 +9,7 @@
 /* basic styles */
 body{
     font-family: "Rajdhani", serif;
-    font-weight: 600;
-    font-style: normal;
+    font-weight: 500px;
     font-size: 15px;
     line-height: 1.5;margin:0;
     background-color: #f4f4f4;
@@ -43,4 +42,35 @@ ul{
 .light , .dark{
     padding:15px;
     margin:10px 0;
+}
+header{
+background-color:#2d2b3e ;
+color: #e6e6e6;
+border-bottom: 3px solid #eb4442;
+padding:5px 0;
+}
+
+header div:nth-of-type(1){
+    display:flex;
+    justify-content: space-between;
+}
+header ul{
+    display:flex;
+    align-items: center;
+    height:100%;
+}
+header a{
+    color:#e6e6e6;
+    padding:0 20px;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+#highlight, #current a{
+    color: #eb4442;
+    font-weight:700px;
+}
+header a:not(#current a){
+    color:#ccc;
+    font-weight: 700px;
 }
