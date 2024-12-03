@@ -147,3 +147,26 @@ i{
     grid-template-columns: 2fr 1fr;
     column-gap: 50px;
 }
+
+#services .container{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 50px;
+}
+#services ul{
+    padding:0;
+}
+#services li{
+    border:1px solid #ccc;
+    padding:20px;
+    margin-bottom: 5px;
+    background-color: #e6e6e6;
+}
+#services .sidebar{
+    margin-top:10px;
+}
+#services input, #services textarea{
+    margin-bottom:10px;
+    width:90%;
+    padding:5px;
+}
